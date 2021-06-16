@@ -60,7 +60,7 @@ namespace CharlsShoes.BLL
         public List<Venta> GetAll()
         {
 
-            return context.Ventas.Where(v => v.status == "A").Include(v => v.ventasDetalle).ToList();
+            return  context.Ventas.Where(v => v.status == "A").Include(v => v.ventasDetalle).ToList();
             //return context.Ventas.Where(c => c.activo == true).ToList();
         }
 

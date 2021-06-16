@@ -6,9 +6,11 @@ using System.Text;
 
 namespace CharlsShoes.DAL
 {
-    public class CharlsShoesContext : DbContext
+    public class CharlsShoesContext : DbContext 
 
     {
+
+
 
         public const string ConnectionString = "Server=LAPTOP-4T0FBODR\\JASI;Database=charlssdb;Trusted_Connection=True;";
         public const string conString ="Data Source=LAPTOP-4T0FBODR\\JASI;Initial Catalog=charlssdb;Integrated Security=True;User ID=;Password=";
